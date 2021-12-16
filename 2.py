@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm 
 import streamlit as st
-from f_Handler import csvHandler,jsonHandler
+from fileHandler import csvHandler,jsonHandler
 
 #READ DATA JSON
 with open("kode_negara_lengkap.json", "r") as read_file:
